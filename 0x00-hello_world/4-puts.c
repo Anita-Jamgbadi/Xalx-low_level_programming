@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/** THis is the main entry point
- *
+/**
+ * main - This is the main entry point
  */
+
+
 
 int main(void)
 {
