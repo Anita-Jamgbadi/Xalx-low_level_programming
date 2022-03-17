@@ -11,12 +11,11 @@
 int main(void)
 {
 	int n;
-	int m;
+	char m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
-	
 	if (m > 5)
 	{
 		printf("Last digit of %d is %c and is greater than 5", n, m);
@@ -33,6 +32,5 @@ int main(void)
 	{
 		printf("IDK");
 	}
-
 	return (0);
 }	
