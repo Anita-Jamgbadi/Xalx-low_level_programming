@@ -11,19 +11,16 @@ int main(void)
 	char k;
 	int i;
 
-	for (i = 0; i < 16; i++)
+	for (i = 0; i < 9; i++)
 	{
-		if (i > 9)
-		{
-			k = i;
-			putchar(k % 10 + '0');
-		}
-		else
-		{
-			k = i;
-			putchar(k);
-		}
+		putchar(i);
 	}
+
+	for (k = 'a'; k <= 'f'; k++)
+	{
+		putchar(k);
+	}
+
 	putchar('\n');
 	return (0);
 }
