@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet_x10 - prints the alphabet 10X
+ * Return: 0
  */
 
 void print_alphabet_x10(void)
@@ -15,6 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(ch);
 		}
+		i++;
 		_putchar('\n');
 	}
 }
