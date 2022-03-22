@@ -9,9 +9,11 @@
 
 void _puts(char *str)
 {
-	char *new;
+	char new;
 
-	new = (char *)malloc(150 * sizeof(char));
-
-	_putchar(new);
+	for (new = 0; str[new] != '\0'; new++)
+	{
+		_putchar(str[new]);
+	}
+	_putchar('\n');
 }
