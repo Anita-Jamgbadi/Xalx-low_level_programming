@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _puts - prints strint to stdoutput
@@ -8,8 +9,9 @@
 
 void _puts(char *str)
 {
-	char new;
+	char *new;
 
-	new = *str;
+	new = (char *)malloc(150 * sizeof(char));
+
 	_putchar(new);
 }
