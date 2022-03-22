@@ -20,15 +20,11 @@ void print_rev(char *s)
 
 	k = u;
 
-	while (k >= 0)
+	for (k = u - 1; k >= 0; k--)
 	{
 		_putchar(s[k]);
-		k--;
 	}
-	while (s[k] = 0)
-	{
-		_putchar('\n');
-	}
+
 	_putchar('\n');
 }
 
