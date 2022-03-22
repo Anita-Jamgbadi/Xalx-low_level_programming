@@ -18,7 +18,6 @@ void print_rev(char *s)
 		u = i;
 	}
 
-	k = u;
 
 	for (k = u - 1; k >= 0; k--)
 	{
