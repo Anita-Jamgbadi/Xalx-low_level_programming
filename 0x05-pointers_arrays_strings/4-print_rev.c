@@ -17,8 +17,8 @@ void print_rev(char *s)
 	{
 		u = i;
 	}
-	
-	k = u - 1;
+
+	k = u;
 
 	while (k >= 0)
 	{
