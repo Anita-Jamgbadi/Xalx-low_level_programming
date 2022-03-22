@@ -17,17 +17,17 @@ void print_rev(char *str)
 	{
 		s = i;
 	}
-
-	for (k = s; k >= 0; k--)
+	
+	if (s > 0)
 	{
-		if (k > 0)
+		for (k = s; k != 0; k--)
 		{
 			_putchar(str[k]);
 		}
-		else
-		{
-			_putchar(str[k]);
-		}
+	}
+	else
+	{
+		break;
 	}
 
 	_putchar('\n');
