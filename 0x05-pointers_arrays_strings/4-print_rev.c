@@ -13,6 +13,8 @@ void print_rev(char *str)
 	int k;
 	int s;
 
+	s = 0;
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		s = i;
