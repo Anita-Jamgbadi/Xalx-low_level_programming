@@ -7,20 +7,23 @@
  * Return: 0
  */
 
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i;
-	int s;
+	int k;
+	int u;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		s = i;
+		u = i;
 	}
 	
-	while (s - 1 >= 0)
+	k = u - 1;
+
+	while (k >= 0)
 	{
-		_putchar(str[s]);
-		s--;
+		_putchar(str[k]);
+		k--;
 	}
 	_putchar('\n');
 }
