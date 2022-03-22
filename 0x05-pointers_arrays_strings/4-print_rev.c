@@ -18,9 +18,10 @@ void print_rev(char *str)
 		s = i;
 	}
 
-	for (k = s + 1; str[k] != 1; k--)
+	for (k = s; str[k] != str[0]; k--)
 	{
 		_putchar(str[k]);
 	}
+
 	_putchar('\n');
 }
