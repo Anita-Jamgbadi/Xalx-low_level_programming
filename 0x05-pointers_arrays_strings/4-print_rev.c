@@ -10,7 +10,6 @@
 void print_rev(char *str)
 {
 	int i;
-	int k;
 	int s;
 
 	for (i = 0; str[i] != '\0'; i++)
@@ -20,15 +19,12 @@ void print_rev(char *str)
 	
 	if (s > 0)
 	{
-		for (k = s; k != 0; k--)
-		{
-			_putchar(str[k]);
-		}
+		_putchar(str[s]);
+		s++;
 	}
 	else
 	{
 	}
-
 	_putchar('\n');
 }
 
