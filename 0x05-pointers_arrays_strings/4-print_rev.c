@@ -14,7 +14,7 @@ void print_rev(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		char ch[] = "str[i]";
+		char ch[] = {str[i]};
 
 		for (k = sizeof(ch); ch[k] != 0; k--)
 		{
