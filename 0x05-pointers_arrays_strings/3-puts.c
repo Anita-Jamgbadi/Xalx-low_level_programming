@@ -8,8 +8,8 @@
 
 void _puts(char *str)
 {
-	char count;
-	
-	count = *str;
-	_putchar(count);
+	char new;
+
+	new = *str;
+	_putchar(new);
 }
