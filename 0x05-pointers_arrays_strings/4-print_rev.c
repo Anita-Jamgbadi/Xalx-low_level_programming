@@ -20,9 +20,16 @@ void print_rev(char *str)
 
 	for (k = s; k >= 0; k--)
 	{
-		_putchar(str[k]);
+		if (k > 0)
+		{
+			_putchar(str[k]);
+		}
+		else
+		{
+			_putchar(str[k]);
+		}
 	}
 
-/*	_putchar('\n');*/
+	_putchar('\n');
 }
-_putchar('\n');
+
