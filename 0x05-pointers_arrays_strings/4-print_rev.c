@@ -23,5 +23,6 @@ void print_rev(char *str)
 		_putchar(str[k]);
 	}
 
-	_putchar('\n');
+/*	_putchar('\n');*/
 }
+_putchar('\n');
