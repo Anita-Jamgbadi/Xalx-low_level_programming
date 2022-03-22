@@ -17,13 +17,10 @@ void print_rev(char *str)
 		s = i;
 	}
 	
-	if (s > 0)
+	while (s > 0)
 	{
 		_putchar(str[s]);
 		s--;
-	}
-	else
-	{
 	}
 	_putchar('\n');
 }
