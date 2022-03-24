@@ -23,7 +23,9 @@ char *_strcat(char *dest, char *src)
 		}
 		else
 		{
+			break;
 		}
+
 		k++;
 
 	}
