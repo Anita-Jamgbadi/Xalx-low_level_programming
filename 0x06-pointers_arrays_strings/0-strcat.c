@@ -11,9 +11,9 @@ char *_strcat(char *dest, char *src)
 {
 	int len, i, k;
 
-	len = sizeof(dest);
+	len = sizeof(dest) / sizeof(char);
 
-	for (i = 0; i <= sizeof(dest) / sizeof(char); i++)
+	for (i = 0; i <= len; i++)
 	{
 		k = 0;
 
