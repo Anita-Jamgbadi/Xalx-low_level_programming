@@ -12,24 +12,16 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int lens1, lens2;
+	int counter, compare;
 
-	lens1 = sizeof(*s1) / sizeof(char);
-	lens2 = sizeof(*s2) / sizeof(char);
-
-	if (lens1 < lens2)
+	counter = 0;
+	while (s1[counter] == s2[counter] && s1[counter] != '\0')
 	{
-		return (lens1 < lens2);
-	}
-	else if (lens1 == lens2)
-	{
-		return (lens1 == lens2);
-	}
-	else
-	{
-		return (lens1 > lens2);
+		counter++;
 	}
 
+	compare = s1[counter] - s1[counter];
+	return (compare);
 }
 
 
