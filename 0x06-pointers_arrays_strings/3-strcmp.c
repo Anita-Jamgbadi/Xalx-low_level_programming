@@ -20,7 +20,7 @@ int _strcmp(char *s1, char *s2)
 		counter++;
 	}
 
-	compare = s1[counter] - s1[counter];
+	compare = s1[counter] - s2[counter];
 	return (compare);
 }
 
