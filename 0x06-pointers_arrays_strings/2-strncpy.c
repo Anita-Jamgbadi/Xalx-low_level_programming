@@ -2,8 +2,9 @@
 
 /**
  * _strncpy - copies the src var into the dest var
- * @dest - original var
- * @src -  var to be copied
+ * @dest: - original var
+ * @src: - var to be copied
+ * @n: number of bytes to copy
  * Return: dest
  */
 
@@ -17,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	for (; i < n; i++)
 	{
-		dest [i] = '\0';
+		dest[i] = '\0';
 	}
 
 	return (dest);
