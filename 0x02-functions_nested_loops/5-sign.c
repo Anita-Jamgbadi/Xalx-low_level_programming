@@ -26,6 +26,6 @@ int print_sign(int n)
 		i = -1;
 		printf("-");
 	}
-	printf("\n");
 	return (i);
+	printf("\n");
 }
