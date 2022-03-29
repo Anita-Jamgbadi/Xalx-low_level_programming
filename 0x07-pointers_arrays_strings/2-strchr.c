@@ -23,6 +23,11 @@ char *_strchr(char *s, char c)
 		else if (s[i] != c && s[i] == '\0')
 		{
 			ptr = NULL;
+			break;
+		}
+		else
+		{
+			continue;
 		}
 	}
 	return (ptr);
