@@ -12,6 +12,12 @@ char *_strchr(char *s, char c)
 {
 	int i;
 	char *ptr;
+	int len;
+
+	for (len = 0; *s != '\0'; s++)
+	{
+		len++;
+	}
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -20,7 +26,7 @@ char *_strchr(char *s, char c)
 			ptr = &s[i];
 			break;
 		}
-		else if (s[i] != c && s[i] == (*s)[1] - s)
+		else if (s[i] != c && s[i] == s[len])
 		{
 			ptr = NULL;
 			break;
