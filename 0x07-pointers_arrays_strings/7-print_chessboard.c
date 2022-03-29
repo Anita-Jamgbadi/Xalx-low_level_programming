@@ -10,7 +10,6 @@
 void print_chessboard(char (*a)[8])
 {
 	int row, col;
-	char car;
 
 	row = 0;
 	col = 0;
@@ -19,8 +18,7 @@ void print_chessboard(char (*a)[8])
 	{
 		while (col < 8)
 		{
-			car = a[row][col];
-			_putchar(car);
+			_putchar(a[row][col]);
 			col++;
 		}
 		_putchar('\n');
