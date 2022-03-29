@@ -19,10 +19,11 @@ void print_chessboard(char (*a)[8])
 	{
 		while (col < 8)
 		{
-			car = *a[row];
+			car = a[row][col];
 			_putchar(car);
 			col++;
 		}
+		_putchar('\n');
 		row++;
 	}
 }
