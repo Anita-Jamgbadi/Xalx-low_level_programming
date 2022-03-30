@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
+ * getEnd - gets end of string
  * _print_rev_recursion - print a string in reverse
- * getEnd - gets to the end of a string
  * @s: points to the string to be printed
  * Return: void
  */
@@ -10,7 +10,7 @@
 
 char getEnd(char *s)
 {
-	if (*s != '\0')
+	while (*s != '\0')
 	{
 		s++;
 	}
