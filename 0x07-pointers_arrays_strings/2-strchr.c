@@ -26,7 +26,7 @@ char *_strchr(char *s, char c)
 			ptr = &s[i];
 			break;
 		}
-		else if (s[i] != c && s[i] == s[len])
+		if (s[i] != c && s[i] == s[len])
 		{
 			ptr = NULL;
 			break;
